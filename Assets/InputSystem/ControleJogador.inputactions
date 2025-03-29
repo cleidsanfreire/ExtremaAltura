@@ -1,0 +1,140 @@
+{
+    "name": "ControleJogador",
+    "maps": [
+        {
+            "name": "Jogador",
+            "id": "c8a9da96-f227-4563-82b8-f48fba26abdb",
+            "actions": [
+                {
+                    "name": "MoverCubo",
+                    "type": "Value",
+                    "id": "9ab1fd6b-6438-480e-8e0b-ec09cb380aa8",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GirarCamera",
+                    "type": "Value",
+                    "id": "210919c9-17dd-4e39-9851-8331438b20b2",
+                    "expectedControlType": "Vector2",
+                    "processors": "DeltaTime",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SoltarCubo",
+                    "type": "Button",
+                    "id": "fc6f428e-c232-4747-abea-844fa4fbf8d8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f7ffba61-366c-4e81-9dcd-4f7afecfc340",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoverCubo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Teclado WASD",
+                    "id": "2d9133f6-e55c-4164-b223-2bb7e47152d7",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoverCubo",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "75a73bee-c390-4b6c-88cc-fc63838c9466",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoverCubo",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "272324e6-e33d-4f10-b7c8-1675816c81c8",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoverCubo",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "d2181851-6760-4a44-a4fe-6d77ded23668",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoverCubo",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f535291c-1c39-4a01-85ca-6fcb8445d9ec",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoverCubo",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "105ba298-61da-45b0-b424-d2c64d41751d",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GirarCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6f8a596-e998-4b93-bbda-6dce1ab32b19",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SoltarCubo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a47d6c6-631d-4d41-b60d-6fa54979589c",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SoltarCubo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
